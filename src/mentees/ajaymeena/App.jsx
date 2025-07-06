@@ -60,7 +60,7 @@ export default function App() {
   const navbarClass = isDarkMode ? 'navbar navbar-expand-lg navbar-dark bg-dark' : 'navbar navbar-expand-lg navbar-light bg-body-light';
 
   return (
-    <div className={themeClass} style={{ minHeight: '100vh' }}>
+    <div className={themeClass}>
 
       <nav className={navbarClass}>
         <div className="container-fluid">
@@ -86,10 +86,9 @@ export default function App() {
         </div>
       </nav>
 
-      <div className="container mt-5 pt-5">
 
-        <div className="row" style={{marginLeft: '10px'}}>
-          <div className={`col-lg-8 col-md-10 col-sm-12 p-5 shadow rounded ${isDarkMode ? 'bg-secondary text-light' : 'bg-light text-dark'}`}>
+        <div className="row" style={{marginLeft:'10px', marginBottom:'10px'}} >
+          <div className={`col-lg-7 col-md-8 col-sm-8 p-5 shadow rounded ${isDarkMode ? 'bg-secondary text-light' : 'bg-light text-dark'}`}>
             <h2  className={`${isDarkMode ? 'bg-secondary text-light' : 'bg-light text-dark'}`}>💱 Currency Converter</h2>
 
             <div className="mb-3">
@@ -192,8 +191,8 @@ export default function App() {
           </div>
         </div>
 
-        <div className="container my-5">
-          <h3 className="mb-4">🌍 Currency Information</h3>
+
+         <div>
           <div className="row g-4">
 
             <div className="col-md-4">
@@ -225,10 +224,8 @@ export default function App() {
                 </div>
               </div>
             </div>
-
           </div>
         </div>
-      </div>
       <footer className={`py-3 mt-5 text-center ${isDarkMode ? 'bg-dark text-light' : 'bg-light text-dark'}`}>
         <small>
           📧 support@example.com | 📞 +1 234 567 890 | 📍 123 Main Street, City, Country &nbsp; © 2025 Currency Converter
