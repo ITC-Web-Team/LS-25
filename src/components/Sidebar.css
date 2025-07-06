@@ -216,7 +216,7 @@
   }
   
   [data-theme='dark'] .theme-toggle-switch .toggle-ball {
-    transform: translateX(30px);
+    transform: translateX(27px);
   }
   
   .theme-toggle-switch .sun-icon {
