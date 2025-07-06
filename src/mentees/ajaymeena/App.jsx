@@ -195,7 +195,7 @@ export default function App() {
          <div>
           <div className="row g-4">
 
-            <div className="col-md-4">
+            <div className="col-md-4" style={{marginLeft:'10px', marginRight:'10px'}}>
               <div className={`card h-100 shadow rounded ${isDarkMode ? 'bg-secondary text-light' : ''}`}>
                 <div className="card-body">
                   <h5 className="card-title">🇮🇳 INR - Indian Rupee</h5>
