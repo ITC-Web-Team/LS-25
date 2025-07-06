@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&display=swap');
 
 .sidebar {
-  width: 240px;
+  width: 275px;
   height: 100vh;
   background: var(--sidebar-bg);
   backdrop-filter: blur(12px); /* glass effect */
@@ -26,7 +26,7 @@
 
 
 .logo {
-  font-size: 48px;
+  font-size: 40px;
   font-weight: bolder;
   text-align: center;
   font-family: 'Archivo', sans-serif;
@@ -78,7 +78,8 @@
 .toggle-btn {
   background: transparent;
   border: none;
-  padding: 0;
+  border-radius: 50px;
+  padding: 0rem;
   font-size: 20px;
   cursor: pointer;
   margin: 1rem auto;
@@ -99,6 +100,7 @@
   border-radius: 50px;
   position: relative;
   padding: 3px;
+  margin-top: 0.2rem;
   cursor: pointer;
   display: flex;
   justify-content: space-between;
@@ -116,9 +118,10 @@
   background-color: #fff;
   width: 24px;
   height: 24px;
+
   position: absolute;
   left: 3px;
-  top: 6px;
+  top: 3.5px;
   border-radius: 50%;
   transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
@@ -153,7 +156,7 @@
 }
 
 [data-theme='dark'] .theme-toggle-switch .toggle-ball {
-  transform: translateX(35px);
+  transform: translateX(29px);
   background-color: #fff;
 }
 
@@ -337,7 +340,7 @@
   }
   
   [data-theme='dark'] .theme-toggle-switch .toggle-ball {
-    transform: translateX(29px);
+    transform: translateX(22px);
   }
   
   .theme-toggle-switch .sun-icon {
