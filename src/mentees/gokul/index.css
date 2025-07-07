@@ -1,0 +1,33 @@
+/* Base styles */
+
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: system-ui, sans-serif;
+  background-color: #ECEAEE;
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+  align-items: flex-start;
+  padding-top: 2rem;
+}
+
+
+* {
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+.custom-bmi-gradient {
+  background: linear-gradient(
+    to right,
+    #38bdf8 0%,     
+    #4ade80 25%,
+    #facc15 50%,     
+    #f97316 75%,    
+    #ef4444 100%   
+  );
+}
